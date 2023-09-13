@@ -29,3 +29,34 @@ reuso.
 Gerando uma matriz a partir de um teste lógico.
 
 ![numpy-03.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/numpy-03.PNG)
+
+## Pandas
+
+Pandas é uma biblioteca Python criada para análise de dados, é uma biblioteca amplamente utilizada 
+em Ciência de Dados sendo assim possível fazer análise, Limpeza e tratadamento de dados. 
+A biblioteca Pandas tem como principal objetivo a manipulação de conjuntos de dados, editar, excluir
+substituir dados de um objeto  da classe DataFrame. 
+
+O Pandas possue várias funções que ajudam nessas análises e manipulações dos dados, Veja alguns exemplos 
+práticos utilizando o Pandas rodando em ambiente do JupyterLab.
+
+Resumo estatístico de colunas numéricas, para isso utilizamos o método describe, temos as  informações nas colunas 
+e os resumos, count = quantidade, mean = média, std = Desvio padrão, min = mínimo, 25% 50% 75% = cortes, max = máximo.
+
+![pandas01.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/pandas01.PNG)
+
+Séries, única coluna pode ser criada a partir de listas, array do numpy ou coluna de data frame.
+
+![pandas02.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/pandas02.PNG)
+
+verificando dados nulos, esse método vai verificar se existem dados nulos, é bastante utilizado em 
+limpeza de dados. O método isnull verifica se existem dados Nulos, ele vai retornar uma tabela 
+com dados lógicos informando True onde exixtir algum valor nulo.
+
+![pandas03.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/pandas03.PNG)
+
+Porém essa saída a cima pode não ser tão funcional se tivermos uma grande quantidade de dados
+e para resolver isso podemos utilizar também o método sum, Note que no retorno ele vai mostrar que 
+de todas as colunas nenhuma possue dados Nulos.
+
+![pandas04.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/pandas04.PNG)
