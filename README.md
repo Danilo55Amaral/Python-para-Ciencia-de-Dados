@@ -15,3 +15,17 @@ ser utilizada para realizar várias operações matemáticas utilizando arrays, 
 funções matemáticas de alto nível capazes de operarem em arrays e matrizes.
 
 Veja alguns exemplos práticos utilizando o NumPay rodando em ambiente do JupyterLab.
+
+Importando a biblioteca NumPy e criando uma matriz unidimensional.
+
+![numpy-01.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/numpy-01.PNG)
+
+Gerando valores aleatórios, utilizados em processos com uso de aleatoriedade, processos não deterministicos.
+Utiliza-se a criação de uma semente, é possível armazenar valores aleatórios nessas sementes e fazer o seu 
+reuso.
+
+![numpy-02.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/numpy-02.PNG)
+
+Gerando uma matriz a partir de um teste lógico.
+
+![numpy-03.PNG](https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados/blob/main/numpy-03.PNG)
